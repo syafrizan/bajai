@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ce76587f5f270243b240c54c796c944, type: 3}
+  m_Name: PlayerVehicles_EVP
+  m_EditorClassIdentifier: 
+  playerVehicles:
+  - name: L200-Red
+    price: 19000
+    stockTopSpeed: 125
+    owned: 1
+    vehiclePrefab: {fileID: 7862695289671295311, guid: 82cc6b36c277deb468310c427ee1e3e5,
+      type: 3}
+    defaultBodyColorHex: FFFFFF
+    defaultWindowColorHex: 767676
+    defaultRimColorHex: ffffff
+    defaultWindowAlpha: 0.5
+  - name: Sport Coupe
+    price: 5
+    stockTopSpeed: 145
+    owned: 0
+    vehiclePrefab: {fileID: 676303194206993934, guid: 1089eb8b76e722e458bf6656db7b1b88,
+      type: 3}
+    defaultBodyColorHex: FF0000
+    defaultWindowColorHex: 767676
+    defaultRimColorHex: ffffff
+    defaultWindowAlpha: 0.5
+  - name: Sport Coupe Drift
+    price: 5
+    stockTopSpeed: 145
+    owned: 0
+    vehiclePrefab: {fileID: 4224685923077425832, guid: 3d8bad3ec65230747b008eea856faf56,
+      type: 3}
+    defaultBodyColorHex: FF0000
+    defaultWindowColorHex: 767676
+    defaultRimColorHex: ffffff
+    defaultWindowAlpha: 0.5
+  - name: Sport Coupe II
+    price: 5
+    stockTopSpeed: 145
+    owned: 0
+    vehiclePrefab: {fileID: 3911629899830651592, guid: ce623b236c1e5484b84f10f067ef55a9,
+      type: 3}
+    defaultBodyColorHex: FF0000
+    defaultWindowColorHex: 767676
+    defaultRimColorHex: ffffff
+    defaultWindowAlpha: 0.5
